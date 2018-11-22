@@ -1,6 +1,6 @@
 <html><head>
 
-    <title>北京齐思奕想文化传媒有限公司--商品详细信息</title>
+    <title>商品详细信息</title>
     <meta http-equiv="Content-Type" content="text/html; charset=GBK">
     <meta name="description" content="">
     <meta name="keywords" content="">
@@ -19,113 +19,13 @@
 
 <style type="text/css">
     body {
-        background-image: url(bg.jpg);
         background-repeat: repeat-x;
         background-color: #002343;
     }
 </style>
 
 <br>
-<table align="center" width="980" cellspacing="0" cellpadding="0" border="0" bgcolor="#FFFFFF">
-    <tbody><tr>
-        <td><table width="100%" cellspacing="0" cellpadding="0" border="0">
-            <tbody><tr>
-                <td rowspan="2" width="29%" height="94"><table width="83%" cellspacing="0" cellpadding="0" border="0">
-                    <tbody><tr><td width="10"></td>
-                        <td align="center"> <a href="#"><img src="../img/logo.gif" border="0"></a></td>
-                    </tr>
-                    </tbody></table></td>
-                <td width="71%"> <table width="100%" cellspacing="0" cellpadding="0" border="0">
-                    <tbody><tr>
-                        <td width="48%"> <marquee scrollamount="3" onmouseover="this.stop()" onmouseout="this.start()" width="100%">欢迎光临我们的店铺。 </marquee></td>
-                        <td width="9%"><div align="right"><a href="#">关于我们</a> | </div></td>
-                        <td width="9%"><div align="right"><a href="#">订单查询</a> |</div></td>
-                        <td width="9%"><div align="right"><a href="#">网站导航</a> |</div></td>
-                        <td width="1%"> </td> </tr>
-                    </tbody></table>
-                    <table width="100%" height="30" cellspacing="0" cellpadding="0" border="0">
-                        <tbody><tr>
-                            <td valign="bottom"><table align="center" width="100%" cellspacing="0" cellpadding="0" border="0">
-                                <tbody><tr>
-                                    <td width="5%">&nbsp;</td>
-                                    <form name="form2" method="post" action="research.asp"></form>
-                                    <td align="left" width="95%">商品搜索：
-                                        <input name="searchkey" size="55" type="text">
-
-                                        <select name="anclassid">
-                                            <option value="0" selected="selected">所有分类</option>
-
-                                            <option value="73">女装</option>
-
-                                            <option value="74">男装</option>
-
-                                            <option value="75">童装</option>
-
-                                            <option value="76">内衣</option>
-
-                                            <option value="77">配饰</option>
-
-                                        </select>
-                                        <input name="submit" src="../img/seachso.gif" type="image" border="0"></td>
-
-                                </tr>
-                                </tbody></table>
-
-                                <table align="center" width="700" cellspacing="0" cellpadding="0" border="0">
-                                </table></td>
-                        </tr>
-                        </tbody></table></td>
-            </tr>
-            </tbody></table></td>
-    </tr>
-    <tr>
-        <td height="45" background="../img/topbg.gif"><table width="100%" cellspacing="0" cellpadding="0" border="0">
-            <tbody><tr>
-                <td align="center" width="28%"><font color="ffffff">
-                    <script>
-                        today=new Date();
-                        var day; var date; var hello; var wel;
-                        hour=new Date().getHours()
-                        if(hour < 6)hello='凌晨好'
-                        else if(hour < 9)hello='早上好'
-                        else if(hour < 12)hello='上午好'
-                        else if(hour < 14)hello='中午好'
-                        else if(hour < 17)hello='下午好'
-                        else if(hour < 19)hello='傍晚好'
-                        else if(hour < 22)hello='晚上好'
-                        else {hello='夜里好'}
-                        if(today.getDay()==0)day='星期日'
-                        else if(today.getDay()==1)day='星期一'
-                        else if(today.getDay()==2)day='星期二'
-                        else if(today.getDay()==3)day='星期三'
-                        else if(today.getDay()==4)day='星期四'
-                        else if(today.getDay()==5)day='星期五'
-                        else if(today.getDay()==6)day='星期六'
-                        date=(today.getMonth() + 1 )+'月'+today.getDate()+'日';
-                        document.write(hello);
-                    </script>
-                    <script>
-                        document.write(date + ' ' + day + ' ' );
-                    </script>
-                </font></td>
-                <td width="72%"><table width="100%" cellspacing="0" cellpadding="0" border="0">
-                    <tbody><tr>
-                        <td><a href="#" class="products0"> <font color="ffffff"><strong>网站首页</strong></font></a></td>
-                        <td><a href="#" class="products0"><font color="ffffff"><strong>新品上架</strong></font></a></td>
-                        <td><a href="#" class="products0"><font color="ffffff"><strong>特价商品</strong></font></a></td>
-                        <td><strong><a href="#" class="products0"><font color="ffffff">推荐商品</font></a></strong></td>
-                        <td><strong><a href="#" class="products0"><font color="ffffff">会员中心</font></a></strong></td>
-                        <td><strong><a href="#" class="products0"><font color="ffffff">公司新闻</font></a></strong></td>
-                        <td><strong><a href="#" class="products0"><font color="ffffff">行业资讯</font></a></strong></td>
-                        <td><strong><a href="#" class="products0"><font color="ffffff">客户留言</font></a></strong></td>
-                        <td> </td>
-                    </tr>
-                    </tbody></table></td>
-            </tr>
-            </tbody></table></td>
-    </tr>
-
-    </tbody></table>
+<#include "../common/heard.ftl"/>
 <table align="center" width="980" height="32" cellspacing="0" cellpadding="0" border="0">
     <tbody><tr>
         <td width="78" bgcolor="#FFFFFF" background="../img/Menu.gif"><div class="style8" align="right"><b>热门搜索：</b></div></td>
@@ -315,7 +215,7 @@
             <table align="center" width="100%" height="41" cellspacing="0" cellpadding="0" border="0">
                 <tbody><tr>
                     <td height="28" bgcolor="#f1f1f1" background="../img/bgpr.gif">
-                        &nbsp;&nbsp;&nbsp;<a href="#">北京齐思奕想文化传媒有限公司</a> &gt;&gt;
+                        &nbsp;&nbsp;&nbsp;<a href="#">有限公司</a> &gt;&gt;
                         <a href="#" targer="_blank">配饰</a> &gt;&gt; <a href="#" targer="_blank">热卖推荐</a></td>
                 </tr>
                 <tr>
@@ -379,36 +279,15 @@
                                                 </tr>
                                                 <tr>
                                                     <td><a href="#"><img src="../img/buy.gif" width="91" height="30" border="0"></a>&nbsp;
-
-                                                        <a href="javascript:;" onclick="javascript:window.open('stow.asp?id=645&amp;action=add','','width=640,height=260,toolbar=no, status=no, menubar=no, resizable=yes, scrollbars=yes');return false;"> <img src="../img/house.gif" width="91" height="30" border="0"></a></td>
+                                                        <a href="javascript:;" onclick="javascript:window.open('stow.asp?id=645&amp;action=add','','width=640,height=260,toolbar=no, status=no, menubar=no, resizable=yes, scrollbars=yes');return false;">
+                                                            <img src="../img/house.gif" width="91" height="30" border="0">
+                                                        </a></td>
                                                 </tr>
                                                 </tbody></table></td>
                                         </tr>
                                         </tbody></table></td>
                                 </tr>
-                                <tr>
-                                    <td colspan="2"><!-- Baidu Button BEGIN -->
-                                        <div id="bdshare" class="bdshare_t bds_tools_32 get-codes-bdshare" style="float:left;">
-                                            <a class="bds_qzone"></a>
-                                            <a class="bds_tsina"></a>
-                                            <a class="bds_tqq"></a>
-                                            <a class="bds_renren"></a>
-                                            <span class="bds_more">更多</span>
-                                            <a class="shareCount"></a>				</div>
-                                        <!-- JiaThis Button BEGIN -->
-                                        <div class="jiathis_style_32x32">
-                                            <a class="jiathis_button_qzone"></a>
-                                            <a class="jiathis_button_tsina"></a>
-                                            <a class="jiathis_button_tqq"></a>
-                                            <a class="jiathis_button_weixin"></a>
-                                            <a class="jiathis_button_renren"></a>
-                                            <a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>
-                                            <a class="jiathis_counter_style"></a>
-                                        </div>
-                                        <script type="text/javascript" src="../js/jia.js" charset="utf-8"></script>
-                                        <!-- JiaThis Button END -->
-                                        <!-- Baidu Button END -->&nbsp;</td>
-                                </tr>
+
                                 </tbody></table></td>
                             <td rowspan="2" width="16">&nbsp;</td>
                         </tr>
@@ -528,25 +407,7 @@
         <td width="24">&nbsp;</td>
     </tr>
     </tbody></table>
-<table align="center" width="980" cellspacing="0" cellpadding="0" border="0">
-    <tbody><tr>
-        <td><table align="center" width="980" cellspacing="0" cellpadding="0" border="0" background="../img/footbg1.gif">
-            <tbody><tr>
-                <td height="30">&nbsp;&nbsp;&nbsp;&nbsp;<font color="EAE9E9">友情链接:</font>
-                    <a href="#" ><font color="EAE9E9">豆瓣网|</font></a>
-                </td>
-            </tr>
-            </tbody></table>
 
-            <div class="footer">
-                <div class="footer_line"><a href="#">站点首页</a> | <a href="#">导航分类</a> | <a href="#">关于我们</a> | <a href="#">联系我们</a>  |  <a href="#">购物流程</a> | <a href="#">客户留言</a> </div>
-                <div class="copyright">客服邮箱：dx@52dongxin.com　客服电话：010-62639290 京ICP号18001853号  网站版权归齐思奕想公司所有<br>
-                    Copyright &#169; 2017-2047 All Rights Reserved
-                    <a class="textlink3" href="#" target="_blank">  </a><br>
-                </div>
-            </div><br></td>
-    </tr>
-    </tbody></table>
-
+<#include "../common/bottom.ftl"/>
 
 </body></html>
